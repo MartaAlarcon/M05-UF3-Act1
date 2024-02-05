@@ -13,17 +13,12 @@
 
 
 
-# Este es el diagrama UML de Marta Alarcón
+# Implementación de Joaquin Alcazar
 
-![texto_alternativo](https://github.com/JoaquinAlcazar/vehicleUML/blob/master/umlMarta.png?raw=true)
-
-## Evaluación del diagrama
-### Objectos
-1/2
-Todos los objetos están correctamente definidos, siguiendo los principios de encapsulación, y con la cantidad de objetos requerida y correcta.
-Sin embargo, uno de los atributos de la clase "Truck" no está definido correctamente
-Se separan correctamente el estado de los comportamientos.
+### Objetos
 
 ### Relaciones
-2/2
-Las relaciones entre objetos son correctas (aunque el triangulo podría ser un pelín más grande)
+
+
+### Herencia
+2/2 implementa correctamente la herencia
