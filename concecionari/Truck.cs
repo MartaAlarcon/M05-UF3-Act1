@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M05_UF3_Act1
+namespace M05_UF3_Act1.concecionari
 {
     internal class Truck : Vehicle
     {
         private string type;
         private int tones;
 
-       public Truck (string _brand, string _model, string _licensePlate, int _wheels, int _year, float _kms, string _type, int _tones) : base(_brand, _model, _licensePlate, _wheels, _year, _kms)
+        public Truck(string _brand, string _model, string _licensePlate, int _wheels, int _year, float _kms, string _type, int _tones) : base(_brand, _model, _licensePlate, _wheels, _year, _kms)
         {
-            this.type = _type;
-            this.tones = _tones;
+            type = _type;
+            tones = _tones;
         }
         public string Type
         {

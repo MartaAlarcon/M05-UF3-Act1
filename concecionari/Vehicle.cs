@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M05_UF3_Act1
+namespace M05_UF3_Act1.concecionari
 {
     internal class Vehicle
     {
@@ -15,14 +15,14 @@ namespace M05_UF3_Act1
         private int year;
         private float kms;
 
-       public Vehicle(string _brand, string _model, string _licensePlate, int _wheels, int _year, float _kms)
+        public Vehicle(string _brand, string _model, string _licensePlate, int _wheels, int _year, float _kms)
         {
-            this.brand = _brand;
-            this.model = _model;
-            this.licensePlate = _licensePlate;
-            this.wheels = _wheels;
-            this.year = _year;
-            this.kms = _kms;
+            brand = _brand;
+            model = _model;
+            licensePlate = _licensePlate;
+            wheels = _wheels;
+            year = _year;
+            kms = _kms;
         }
 
         public string Brand
