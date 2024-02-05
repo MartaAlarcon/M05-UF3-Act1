@@ -16,9 +16,11 @@
 # Implementación de Joaquin Alcazar
 
 ### Objetos
+2/2 Todos los objetos están bien definidos, con sus getters, setters, y método constructor.
+Se siguen los principios de encapsulación.
 
 ### Relaciones
-
+2/2 Todas las relaciones están implementas conforme el documento UML
 
 ### Herencia
 2/2 implementa correctamente la herencia
