@@ -57,11 +57,7 @@ namespace M05_UF3_Act1
         }
         public bool IsOlder(int year)
         {
-            if (year > 2005)
-            {
-                return false;
-            }
-            return true;
+            return year < 2005;
         }
     }
 }

@@ -29,11 +29,7 @@ namespace M05_UF3_Act1
 
         public bool isHeavy(int tones)
         {
-            if (tones > 15)
-            {
-                return true;
-            }
-            return false;
+            return tones > 15;
         }
 
     }

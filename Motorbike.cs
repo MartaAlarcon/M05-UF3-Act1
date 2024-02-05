@@ -29,11 +29,7 @@ namespace M05_UF3_Act1
 
         public bool isSidecar(int wheels)
         {
-            if (wheels > 3)
-            {
-                return true;
-            }
-            return false;
+            return wheels > 3;
         }
 
 

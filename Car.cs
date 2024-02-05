@@ -30,12 +30,7 @@ namespace M05_UF3_Act1
 
         public bool isBig(int year)
         {
-            int newYear = 2024 - year;
-            if (newYear > 15)
-            {
-                return true;
-            }
-            return false;
+            return 2024 - year > 15;
         }
     }
 }
